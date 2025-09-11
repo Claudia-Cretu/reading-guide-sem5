@@ -9,4 +9,10 @@ export const routes: Routes = [
 		path: 'version',
 		loadComponent: () => import('./pages/version-page.component').then(m => m.VersionPageComponent)
 	}
+	,
+	{
+		path: 'blank',
+		loadComponent: () => import('./pages/blank-page.component').then(m => m.BlankPageComponent),
+		data: { animation: 'blank' }
+	}
 ];
