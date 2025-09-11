@@ -1,0 +1,32 @@
+<div class="min-h-screen bg-background flex flex-col md:flex-row items-center justify-center p-4">
+  <!-- Left section: Text -->
+  <div class="flex-1 flex flex-col justify-start p-12 pt-2">
+    <h1 class="text-4xl md:text-8xl font-anton font-bold text-primary leading-tight mb-28 tracking-tight">READING<br>GUIDE</h1>
+    <p class="text-lg md:text-4xl font-publicsans font-thin text-secondary mb-26">Portfolio,<br>products,<br>productivity.</p>
+    <div class="flex items-center gap-3 mt-14">
+      <a [routerLink]="['/version']">
+        <img src="/arrowright.svg" alt="arrow" class="w-7 h-7 md:w-8 md:h-8 inline-block cursor-pointer" />
+      </a>
+      <span class="text-base md:text-lg text-black font-publicsans ">Flip the page to read about an amazing project.</span>
+    </div>
+  </div>
+  <!-- Right section: Polaroid images -->
+  <div class="flex-1 flex flex-col items-center justify-center relative p-8">
+    <div class="absolute left-1/3 -top-24 md:-top-14 w-44 md:w-56 z-20 -rotate-12 -translate-x-1/2 shadow-2xl">
+      <div class="bg-gray p-2 pb-10 border-4 border-gray shadow-lg">
+        <img src="assets/me.jpg" alt="Polaroid 1" class="object-cover w-full h-48 md:h-64" />
+      </div>
+    </div>
+    <div class="absolute left-[50%] top-32 w-56 md:w-72 z-20 rotate-[22deg] -translate-x-1/2 shadow-2xl">
+      <div class="bg-gray p-2 pb-12 border-4 border-gray shadow-lg">
+        <img src="assets/meeee.jpg" alt="Polaroid 2" class="object-cover w-full h-64 md:h-80" />
+      </div>
+    </div>
+    <div class="absolute left-[30%] top-[24rem] w-44 md:w-56 z-20 -rotate-12 -translate-x-1/2 shadow-2xl">
+      <div class="bg-gray p-2 pb-10 border-4 border-gray shadow-lg">
+        <img src="assets/mee.jpg" alt="Polaroid 3" class="object-cover w-full h-48 md:h-64" />
+      </div>
+    </div>
+    <div class="h-[32rem] md:h-[40rem]"></div>
+  </div>
+</div>

@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-main-page',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './main-page.component.html',
+  styleUrls: ['./main-page.component.css']
 })
-export class AppComponent {
-  title = 'reading-guide';
-}
+export class MainPageComponent {}
