@@ -1,0 +1,24 @@
+<div class="min-h-screen bg-[#e5d6c4] flex flex-col justify-center items-center relative overflow-hidden">
+  <div class="absolute left-0 top-0 w-1/2 h-full bg-gradient-to-r from-black/80 via-black/30 to-transparent"></div>
+  <div class="relative z-10 w-full flex flex-col items-start pl-16 pt-16">
+    <h2 class="text-6xl md:text-7xl font-bold text-[#7a2323] font-anton tracking-tight mb-8">TABLE OF<br />CONTENTS</h2>
+    <div class="mt-4 text-3xl md:text-4xl font-light text-black font-anton tracking-tight">
+      <div>Version Control<span class="float-right">..........2</span></div>
+      <div>Table of Contents<span class="float-right">..........3</span></div>
+      <div>Introduction<span class="float-right">..........4</span></div>
+      <div>Portfolio<span class="float-right">..........5</span></div>
+      <div>Project<span class="float-right">..........6</span></div>
+      <div>Burden of proof<span class="float-right">..........7</span></div>
+    </div>
+  </div>
+  <div class="absolute bottom-8 left-8 z-20">
+    <a [routerLink]="['/version']">
+      <img src="/arrowright.svg" alt="Back" class="w-12 h-12 rotate-180 cursor-pointer" />
+    </a>
+  </div>
+  <div class="absolute bottom-8 right-8 z-20">
+    <a [routerLink]="['/']">
+      <img src="/arrowright.svg" alt="Forward" class="w-12 h-12 cursor-pointer" />
+    </a>
+  </div>
+</div>

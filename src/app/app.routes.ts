@@ -10,9 +10,9 @@ export const routes: Routes = [
 		loadComponent: () => import('./pages/version-page.component').then(m => m.VersionPageComponent)
 	}
 	,
-	{
-		path: 'blank',
-		loadComponent: () => import('./pages/blank-page.component').then(m => m.BlankPageComponent),
-		data: { animation: 'blank' }
-	}
+		{
+			path: 'table-of-contents',
+			loadComponent: () => import('./pages/table-of-contents-page.component').then(m => m.TableOfContentsPageComponent),
+			data: { animation: 'table-of-contents' }
+		}
 ];
